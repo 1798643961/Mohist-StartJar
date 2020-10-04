@@ -7,7 +7,7 @@ public class MohistMc {
 
     public static void main(String[] args) throws Throwable {
 
-        String path1 = String.format("forge-1.15.2-31.2.0.jar");
+        String path1 = String.format("forge-1.16.3-34.1.5.jar");
 
         System.out.println("\n" + "\n" +
                 " __    __   ______   __  __   __   ______   ______  \n" +
@@ -22,7 +22,7 @@ public class MohistMc {
         }
         else {
             ProcessBuilder builder = new ProcessBuilder();
-            builder.command("java", "-jar", String.format("forge-1.15.2-31.2.0.jar"), "nogui", ".");
+            builder.command("java", "-jar", String.format("forge-1.16.3-34.1.5.jar"), "nogui", ".");
             builder.inheritIO();
             Process process = builder.start();
             process.waitFor();
