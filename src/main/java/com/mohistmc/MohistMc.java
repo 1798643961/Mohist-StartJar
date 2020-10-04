@@ -18,7 +18,7 @@ public class MohistMc {
                 "                                                    \n" + "\n");
         afterSetup();
         if (!Files.exists(Paths.get(path1))) {
-            System.out.println("Please reload is");
+            System.out.println("Please reload it");
         }
         else {
             ProcessBuilder builder = new ProcessBuilder();
