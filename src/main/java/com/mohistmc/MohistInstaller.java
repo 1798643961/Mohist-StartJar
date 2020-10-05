@@ -8,8 +8,6 @@ import java.util.concurrent.Executors;
 
 public class MohistInstaller {
 
-    private ExecutorService pool;
-
     public static void install() throws Throwable {
 
         Path path = Paths.get(String.format("forge-1.16.3-34.1.5.jar"));
